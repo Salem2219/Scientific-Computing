@@ -55,7 +55,7 @@ If the function is given the optional starting day of the week parameter, then t
 
 Below are some examples of different cases the function handles.
 
-'''
+```
 add_time("3:00 PM", "3:10")
 # Returns: 6:10 PM
 
@@ -73,4 +73,4 @@ add_time("11:43 PM", "24:20", "tueSday")
 
 add_time("6:30 PM", "205:12")
 # Returns: 7:42 AM (9 days later)
-'''
+```
